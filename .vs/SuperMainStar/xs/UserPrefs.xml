@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{A9171C0B-4650-4544-2B43-A4AE0C0DA233}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SuperMainStar/Script/GamePlay/SpinWheel.cs">
+    <Files>
+      <File FileName="Assets/SuperMainStar/Script/GamePlay/SpinWheel.cs" Line="139" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="59a95086-2ccb-4fec-9319-8d14c373b2dc" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,799 @@
+fileFormatVersion: 2
+guid: 6b63ecc22b915f148bd051cc7e4aafef
+timeCreated: 1524813948
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SuperMainStar_Shine_effects_0
+    21300002: SuperMainStar_Shine_effects_1
+    21300004: SuperMainStar_Shine_effects_2
+    21300006: SuperMainStar_Shine_effects_3
+    21300008: SuperMainStar_Shine_effects_4
+    21300010: SuperMainStar_Shine_effects_5
+    21300012: SuperMainStar_Shine_effects_6
+    21300014: SuperMainStar_Shine_effects_7
+    21300016: SuperMainStar_Shine_effects_8
+    21300018: SuperMainStar_Shine_effects_9
+    21300020: SuperMainStar_Shine_effects_10
+    21300022: SuperMainStar_Shine_effects_11
+    21300024: SuperMainStar_Shine_effects_12
+    21300026: SuperMainStar_Shine_effects_13
+    21300028: SuperMainStar_Shine_effects_14
+    21300030: SuperMainStar_Shine_effects_15
+    21300032: SuperMainStar_Shine_effects_16
+    21300034: SuperMainStar_Shine_effects_17
+    21300036: SuperMainStar_Shine_effects_18
+    21300038: SuperMainStar_Shine_effects_19
+    21300040: SuperMainStar_Shine_effects_20
+    21300042: SuperMainStar_Shine_effects_21
+    21300044: SuperMainStar_Shine_effects_22
+    21300046: SuperMainStar_Shine_effects_23
+    21300048: SuperMainStar_Shine_effects_24
+    21300050: SuperMainStar_Shine_effects_25
+    21300052: SuperMainStar_Shine_effects_26
+    21300054: SuperMainStar_Shine_effects_27
+    21300056: SuperMainStar_Shine_effects_28
+    21300058: SuperMainStar_Shine_effects_29
+    21300060: SuperMainStar_Shine_effects_30
+    21300062: SuperMainStar_Shine_effects_31
+    21300064: SuperMainStar_Shine_effects_32
+    21300066: SuperMainStar_Shine_effects_33
+    21300068: SuperMainStar_Shine_effects_34
+    21300070: SuperMainStar_Shine_effects_35
+    21300072: SuperMainStar_Shine_effects_36
+    21300074: SuperMainStar_Shine_effects_37
+    21300076: SuperMainStar_Shine_effects_38
+    21300078: SuperMainStar_Shine_effects_39
+    21300080: SuperMainStar_Shine_effects_40
+    21300082: SuperMainStar_Shine_effects_41
+    21300084: SuperMainStar_Shine_effects_42
+    21300086: SuperMainStar_Shine_effects_43
+    21300088: SuperMainStar_Shine_effects_44
+    21300090: SuperMainStar_Shine_effects_45
+    21300092: SuperMainStar_Shine_effects_46
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 54
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_0
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1090
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1090
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_2
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1090
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_3
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1090
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_4
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1090
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_5
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1090
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_6
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1090
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_7
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1090
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 872
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 872
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_10
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 872
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_11
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 872
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_12
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 872
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_13
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 872
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_14
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 872
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_15
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 872
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_16
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 872
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_18
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 654
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_19
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 654
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_20
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 654
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_21
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 654
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_22
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 654
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_23
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 654
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_24
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 654
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_25
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 654
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_27
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 436
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_28
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 436
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_29
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 436
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_30
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 436
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_31
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 436
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_32
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 436
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_33
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 436
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_34
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 436
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_36
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 218
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_37
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 218
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_38
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 218
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_39
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 218
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_40
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 218
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_41
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 218
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_42
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 218
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_43
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 218
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_45
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SuperMainStar_Shine_effects_46
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 0
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
