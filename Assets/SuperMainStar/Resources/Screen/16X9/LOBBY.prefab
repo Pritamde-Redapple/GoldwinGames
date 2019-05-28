@@ -356,7 +356,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SUPER JOKER
+  m_Text: BUMPER JOKER
 --- !u!1 &1071277363098688
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,7 +663,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 85afd75c286876a42ab7a4aec8b81641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 776798fdb37097143839b3639521b9b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1726,7 +1726,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ef1329098cdc84412adaed0523f8527d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9a6f1a89a3320df46bb729161f83f1b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2110,7 +2110,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: ee28b3f9a1d5543b89336d8b42e9c813, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 852ae63dd3fc182439aa188239c50575, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

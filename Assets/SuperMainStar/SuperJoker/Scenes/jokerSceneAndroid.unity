@@ -599,6 +599,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.131
       objectReference: {fileID: 0}
+    - target: {fileID: 212593544532875362, guid: cf410a5b4029b9e42b8f47aa6a6ffc0f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8de26a252d76475449546115c9efdbd7,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 114929320979366892, guid: cf410a5b4029b9e42b8f47aa6a6ffc0f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cf410a5b4029b9e42b8f47aa6a6ffc0f, type: 3}
@@ -11261,7 +11267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 560, y: 189.73047}
+  m_AnchoredPosition: {x: 560, y: 189.75}
   m_SizeDelta: {x: 734, y: 137.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &880828907
@@ -25203,7 +25209,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SUPER JOKER
+  m_Text: BUMPER JOKER
 --- !u!222 &1564200995
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29350,7 +29356,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 741.6, y: -66.92}
+  m_AnchoredPosition: {x: 741.6, y: -66.875}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1837836468

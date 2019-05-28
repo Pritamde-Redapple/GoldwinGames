@@ -128,7 +128,7 @@ public class Lobby : UIPage {
         gLoadingPanel.SetActive(true);
         lobbyPanel.SetActive(false);
         StartCoroutine(Load(true));
-        nextGameName.text = "SUPER JOKER";
+        nextGameName.text = "BUMPER JOKER";
         /*
          * {
     "status": "1",

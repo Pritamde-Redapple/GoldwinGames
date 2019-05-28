@@ -437,6 +437,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.131
       objectReference: {fileID: 0}
+    - target: {fileID: 212593544532875362, guid: cf410a5b4029b9e42b8f47aa6a6ffc0f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8de26a252d76475449546115c9efdbd7,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 114929320979366892, guid: cf410a5b4029b9e42b8f47aa6a6ffc0f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cf410a5b4029b9e42b8f47aa6a6ffc0f, type: 3}
@@ -22906,7 +22912,7 @@ PrefabInstance:
     - target: {fileID: 8674161492939719270, guid: 9b3b7eb711b4215468693976c35a14f4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -39.9
+      value: -39.899994
       objectReference: {fileID: 0}
     - target: {fileID: 8674161492939719270, guid: 9b3b7eb711b4215468693976c35a14f4,
         type: 3}
@@ -23543,7 +23549,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SUPER JOKER
+  m_Text: BUMPER JOKER
 --- !u!222 &1564200995
 CanvasRenderer:
   m_ObjectHideFlags: 0
