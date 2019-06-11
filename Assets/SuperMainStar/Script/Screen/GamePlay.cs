@@ -671,9 +671,10 @@ public class GamePlay : UIPage
         IPointBalance += _iBalance;
     }
 
-
+    public float startSpinningTime = 0;
     public void StartSpinning()
     {
+        startSpinningTime = Time.time;
         Debug.Log("Start Spinning");
         tResultNumber.text = "";
         multiplierText.text = "";
@@ -1110,7 +1111,9 @@ public class GamePlay : UIPage
     }
 
    public void GetGameResult()
-    {
+   {
+        float fetchingData = Time.time;
+        Debug.Log("Fetching Data: "+ Time.time);
         Debug.Log("AccessToken : " + Constant.CurrentAccessToken + " GameSession : " + Constant.CurrentGameSession);
         Web.Create()
            .SetUrl(Constant.GameResultURL, Web.RequestType.POST, Web.ResponseType.TEXT)
@@ -1118,6 +1121,8 @@ public class GamePlay : UIPage
            .AddHeader(Constant.AccessToken, Constant.CurrentAccessToken)
                   .SetOnSuccessDelegate((Web _web, Response _response) =>
                   {
+                    
+                      Debug.Log("Time diferrence: " + (Time.time - fetchingData));
                       Debug.Log("Success " + _response.GetText());
                       Debug.Log("Get result : " + Time.time);
                       JSONNode _jsonNode = JSON.Parse(_response.GetText());
@@ -1144,16 +1149,16 @@ public class GamePlay : UIPage
                           {
                               lstAllWheel[i].number = ( int.Parse(sResultNumber[i].ToString()));
                           }
-
+                          MoveToSpecificNumberInWheel();
                           Debug.Log((Time.time - delayBetweenResultCallback)); 
-                          if ((Time.time - delayBetweenResultCallback) > 9)
-                          {
-                              MoveToSpecificNumberInWheel();
-                          }
-                          else
-                          {
-                              Invoke("MoveToSpecificNumberInWheel", 5f);
-                          }
+                          //if ((Time.time - delayBetweenResultCallback) > 9)
+                          //{
+                          //    MoveToSpecificNumberInWheel();
+                          //}
+                          //else
+                          //{
+                          //    Invoke("MoveToSpecificNumberInWheel", 5f);
+                          //}
                       }
                       else
                       {

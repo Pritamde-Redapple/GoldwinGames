@@ -7,8 +7,11 @@ public static class Constant
 {
 
     #region Server Constant
+    
+    public static string BaseURL = "http://13.234.42.202/admin/api/";
+    
+    /*// "http://18.219.52.107/supermainlott/admin/api/"; //"http://35.154.209.176/admin/api/";//"http://18.219.52.107/supermainlott/admin/api/";  */
 
-    public static string BaseURL = "http://35.154.209.176/admin/api/";// "http://18.219.52.107/supermainlott/admin/api/"; //"http://35.154.209.176/admin/api/";//"http://18.219.52.107/supermainlott/admin/api/";  
     public static string LoginURL = BaseURL + "users/login";
     public static string LogOutURL = BaseURL + "users/logout";
     public static string ForgotPasswordURL = BaseURL + "users/forgot-password";

@@ -10,7 +10,7 @@ public class SocketController : MonoBehaviour
 {
     private Socket socket;
     public static SocketController Instance;
-
+    public float startingRotationTimer = 0;
     bool isAddedUser;
     private void Awake()
     {
@@ -32,7 +32,8 @@ public class SocketController : MonoBehaviour
 
     public void ConnectSocket()
     {
-        socket = Socket.Connect("http://35.154.209.176:3006/");//http://18.219.52.107:3006/");//"http://35.154.209.176:3006/");  //http://142.4.15.147:3020   //http://18.219.52.107:3006(new)
+       
+        socket = Socket.Connect("http://13.234.42.202:3000/");//http://18.219.52.107:3006/");//"http://35.154.209.176:3006/");  //http://142.4.15.147:3020   //http://18.219.52.107:3006(new)
         socket.OnReconnect += OnConnectSocket;
         socket.On("user_connected", UserConnectedCallback);
         socket.On("connected_room", ConnectedRoomCallback);
@@ -129,6 +130,7 @@ public class SocketController : MonoBehaviour
 
     public void ResultReadyCallback(string _data)
     {
+        Debug.LogError(Time.time - GamePlay.instance.startSpinningTime);
 #if _D_I
         Debug.Log("Event: Result ready > " + _data);
         Debug.Log("Result Ready Time " + Time.time);

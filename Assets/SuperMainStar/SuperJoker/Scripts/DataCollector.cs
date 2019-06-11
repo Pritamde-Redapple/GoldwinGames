@@ -182,7 +182,7 @@ namespace SuperJoker {
 
         public void GetResult()
         {
-
+            float nowTime = Time.time;
             /*
              * {"status":1,
                 "message":"success",
@@ -203,6 +203,7 @@ namespace SuperJoker {
             .AddHeader(Constant.AccessToken, Constant.CurrentAccessToken)
                    .SetOnSuccessDelegate((Web _web, Response _response) =>
                    {
+                       Debug.LogError("Time Taken: "+ (Time.time - nowTime));
                    Debug.Log(System.DateTime.Now + "Success getting data " + _response.GetText());
                    JSONNode _jsonNode = JSON.Parse(_response.GetText());
                    if (_jsonNode["status"].Value == "1")

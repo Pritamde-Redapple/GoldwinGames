@@ -54,19 +54,20 @@ public class SpinWheel : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            RotateWheelInfinitely();
-        }
-        if (Input.GetKeyDown(KeyCode.S) && wheelType == Wheel.Outer)
-        {
-            MoveToSpecificNumber(number);
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    RotateWheelInfinitely();
+        //}
+        //if (Input.GetKeyDown(KeyCode.S) && wheelType == Wheel.Outer)
+        //{
+        //    MoveToSpecificNumber(number);
+        //}
 
     }
 
     public void RotateWheelInfinitely()
     {
+        SocketController.Instance.startingRotationTimer = Time.time;
         Debug.Log("Current : " + transform.eulerAngles);
 
         //  Debug.Log(wheelType + " Start loop");
@@ -94,12 +95,13 @@ public class SpinWheel : MonoBehaviour
             endValue = new Vector3(0, 0, 360);
         }
         run = DOTween.Sequence();
-        Tween rot = transform.DORotate(endValue, 1.5f, RotateMode.FastBeyond360).SetEase(Ease.Linear).SetRelative();
+        Tween rot = transform.DORotate(endValue, 1.0f, RotateMode.FastBeyond360).SetEase(Ease.Linear).SetRelative();
         run.Append(rot).SetLoops(-1);
     }
 
     public void MoveToSpecificNumber(int num)
     {
+
       //  run.Complete();
         run.Kill();
         run = DOTween.Sequence();
@@ -131,7 +133,7 @@ public class SpinWheel : MonoBehaviour
         //Debug.Log(wheelType+"Z value : " + endValue);
 
         float time = Mathf.Abs((endValue.z - transform.localEulerAngles.z)) / 100f;
-        time = Mathf.Clamp(time, 1, 2); // 6
+        time = Mathf.Clamp(time, 0.6f, 1.0f); // 6
         Debug.Log( "Current : " + transform.eulerAngles + " End Value: " + endValue + " time " + time);
        
             Tween rot = transform.DORotate(endValue , time, RotateMode.FastBeyond360)
