@@ -63,7 +63,7 @@ public class Lobby : UIPage {
 
         StartCoroutine(Load());
 
-        Debug.Log(Constant.CurrentAccessToken);
+      //  Debug.Log(Constant.CurrentAccessToken);
         web = Web.Create()
            .SetUrl(Constant.GameDetailsURL, Web.RequestType.POST, Web.ResponseType.TEXT)
 
@@ -341,7 +341,7 @@ public class Lobby : UIPage {
     public override void OnEnter()
 	{
         base.OnEnter();
-        Debug.Log("Name : " + Constant.Name);
+       // Debug.Log("Name : " + Constant.Name);
         tName.text = Constant.Name.ToUpper();
         tPointBalance.text = Constant.PointBalance.ToString();
         SoundController.instance.StartAndStopWheelSpin(false);

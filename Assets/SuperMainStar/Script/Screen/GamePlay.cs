@@ -276,7 +276,7 @@ public class GamePlay : UIPage
         }
 
         DisableWinPanel();
-        Debug.Log("Reset All Data");
+      //  Debug.Log("Reset All Data");
         playValue = 0;
         timerScript.StartTimer(90);
     }
@@ -699,7 +699,7 @@ public class GamePlay : UIPage
 
     public void ShowResultBlock()
     {
-        Debug.Log("Win Amount : " + Constant.WinAmount);
+     //   Debug.Log("Win Amount : " + Constant.WinAmount);
        if (Constant.WinAmount.Length > 0 && double.Parse(Constant.WinAmount) > 0)
         {
             gWinData.SetActive(true);
@@ -1086,7 +1086,7 @@ public class GamePlay : UIPage
                     .SetOnSuccessDelegate((Web _web, Response _response) =>
                     {
                         Debug.Log("Success " + _response.GetText());
-                        Debug.Log("Data submit success " + Time.time);
+                       // Debug.Log("Data submit success " + Time.time);
                         JSONNode _jsonNode = JSON.Parse(_response.GetText());
                         if (_jsonNode["status"].Value == "1")
                         {
@@ -1151,14 +1151,15 @@ public class GamePlay : UIPage
                           }
                           MoveToSpecificNumberInWheel();
                           Debug.Log((Time.time - delayBetweenResultCallback)); 
-                          //if ((Time.time - delayBetweenResultCallback) > 9)
-                          //{
-                          //    MoveToSpecificNumberInWheel();
-                          //}
-                          //else
-                          //{
-                          //    Invoke("MoveToSpecificNumberInWheel", 5f);
-                          //}
+                         if ((Time.time - delayBetweenResultCallback) > 6.5)
+                          {
+                              MoveToSpecificNumberInWheel();
+                          }
+                          else
+                          {
+                              float delay = 6.5f - (Time.time - delayBetweenResultCallback);
+                              Invoke("MoveToSpecificNumberInWheel", delay);
+                          }
                       }
                       else
                       {

@@ -38,7 +38,7 @@ public class Loading : UIPage {
     void CheckScreenRatioAndLoadScene()
     {
         float _fRatio = Screen.width * 1.0f / Screen.height * 1.0f;
-        Debug.Log(_fRatio + " " + _fRatio.ToString("F"));
+     //   Debug.Log(_fRatio + " " + _fRatio.ToString("F"));
 
         switch (_fRatio.ToString("F"))
         {

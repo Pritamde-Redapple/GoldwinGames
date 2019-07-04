@@ -1,6 +1,6 @@
 Win
 PlayerPath?
-C:/Users/REDAPPLE-001/Documents/Builds/Jun___________/M/Goldwin.exe
+C:/Users/REDAPPLE-001/Documents/Builds/Jun___________/Goldwin2/Goldwin.exe
 SceneListBegin?
 Assets/SuperMainStar/Scene/Loading.unity
 Assets/SuperMainStar/Scene/Game_16X9.unity

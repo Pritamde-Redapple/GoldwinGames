@@ -68,7 +68,7 @@ public class SpinWheel : MonoBehaviour
     public void RotateWheelInfinitely()
     {
         SocketController.Instance.startingRotationTimer = Time.time;
-        Debug.Log("Current : " + transform.eulerAngles);
+        //Debug.Log("Current : " + transform.eulerAngles);
 
         //  Debug.Log(wheelType + " Start loop");
         if (gNumberBlock != null)
@@ -110,7 +110,7 @@ public class SpinWheel : MonoBehaviour
         {
             if (prize[i] == num)
             {
-                Debug.Log("Go to index : " + i + "Number: "+ num);
+             //   Debug.Log("Go to index : " + i + "Number: "+ num);
                 endValue = new Vector3(0, 0, (36 * i));
                 break;
             }
@@ -134,7 +134,7 @@ public class SpinWheel : MonoBehaviour
 
         float time = Mathf.Abs((endValue.z - transform.localEulerAngles.z)) / 100f;
         time = Mathf.Clamp(time, 0.6f, 1.0f); // 6
-        Debug.Log( "Current : " + transform.eulerAngles + " End Value: " + endValue + " time " + time);
+      //  Debug.Log( "Current : " + transform.eulerAngles + " End Value: " + endValue + " time " + time);
        
             Tween rot = transform.DORotate(endValue , time, RotateMode.FastBeyond360)
       .SetEase(Ease.Linear)
@@ -243,7 +243,7 @@ public class SpinWheel : MonoBehaviour
         {
             SoundController.instance.StartAndStopWheelSpin(false);
             gJewel.SetActive(true);
-            Debug.Log("show result");
+           // Debug.Log("show result");
             GamePlay.instance.ShowResultBlock();
         }
     }
@@ -253,7 +253,7 @@ public class SpinWheel : MonoBehaviour
         {
             if (prize[i] == _ivalue)
             {
-                Debug.Log("For number :" + _ivalue);
+         //       Debug.Log("For number :" + _ivalue);
                 itemNumber = i;
                 float _angle = 36 * itemNumber;
 

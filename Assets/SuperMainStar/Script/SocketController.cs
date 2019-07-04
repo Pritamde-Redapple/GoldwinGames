@@ -130,7 +130,8 @@ public class SocketController : MonoBehaviour
 
     public void ResultReadyCallback(string _data)
     {
-        Debug.LogError(Time.time - GamePlay.instance.startSpinningTime);
+        if(GamePlay.instance)
+            Debug.LogError(Time.time - GamePlay.instance.startSpinningTime);
 #if _D_I
         Debug.Log("Event: Result ready > " + _data);
         Debug.Log("Result Ready Time " + Time.time);
@@ -292,7 +293,7 @@ public class SocketController : MonoBehaviour
 
     void OnResultPrepared(string _data)
     {
-        Debug.Log("Result Ready: " + System.DateTime.Now);        
+       // Debug.Log("Result Ready: " + System.DateTime.Now +"__"+ _data);        
         Invoke("GetResultWithDelay",4);
       //  Invoke("SetStopEffects", 8);
     }

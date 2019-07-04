@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/REDAPPLE-001/Documents/Builds/Jun___________/Goldwin/Goldwin_1.0.1.apk
+C:/Users/REDAPPLE-001/Documents/Builds/Jun___________/Goldwin/Goldwin_1.0.3.apk
 SceneListBegin?
 Assets/SuperMainStar/Scene/Loading.unity
 Assets/SuperMainStar/Scene/Game_16X9.unity

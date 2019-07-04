@@ -64,7 +64,7 @@ public class Login : UIPage {
                 tErrorText.text = "";
                 gLoadingPanel.SetActive(true);
 
-                Debug.Log(Constant.CurrentDeviceType);
+              //  Debug.Log(Constant.CurrentDeviceType);
                 Web.Create()
                    .SetUrl(Constant.LoginURL, Web.RequestType.POST, Web.ResponseType.TEXT)
                    .AddField(Constant.Username, iUserName.text.Trim())
